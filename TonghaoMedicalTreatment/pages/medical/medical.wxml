@@ -1,0 +1,54 @@
+<view class="frame-container">
+  <view class="logo"></view>
+  <view class="modules">
+    <view class="module-left">
+      <text>医院简介</text>
+      <navigator url="#">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/0015-images.png" />
+      </navigator>
+    </view>
+    <view class="module-right">
+      <view class="module-item">
+        <text>科室介绍</text>
+        <navigator url="#">
+          <image src="http://7xs3gd.com1.z0.glb.clouddn.com/0015-images.png" />
+        </navigator>
+      </view>
+      <view class="module-item">
+        <text>专家介绍</text>
+        <navigator url="#">
+          <image src="http://7xs3gd.com1.z0.glb.clouddn.com/0015-images.png" />
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="address-info">
+    <view class="address">
+      <span></span>
+      <text>上海市长宁区红宝石路388号（近古北路）</text>
+    </view>
+    <view class="phone">
+      
+    </view>
+  </view>
+  <view class="message-board">
+    <view class="message-board-title">
+      <text>信息公告</text>
+    </view>
+    <view class="message">
+      <icon class="message-icon">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/0015-images.png"/>
+      </icon>
+      <view class="message-info">
+        <view class="message-content">
+        <text>瑞金医院可以全面支持，官网、微信公众号全程在线挂号</text>
+        </view>
+        <view class="message-user">
+          <text>张三</text>
+          <text>院综合办公室</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="fix-line"></view>

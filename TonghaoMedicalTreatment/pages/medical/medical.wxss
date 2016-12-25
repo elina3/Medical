@@ -1,0 +1,147 @@
+view{
+  color: #333;  
+}
+.logo{
+  height: 320rpx;
+  width: 100%;
+  overflow: hidden;
+  background: url('http://7xs3gd.com1.z0.glb.clouddn.com/medical.jpg')  -20rpx top no-repeat;
+  background-size: cover;
+}
+.modules{
+  width: 100%;
+  margin-top: 10rpx;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.modules .module-left{
+    display: inline-block;
+    float:left;
+    width: 50%;
+    height: 300rpx;
+    border-right: 1px solid #cdcdcd;
+}
+.modules .module-left text{
+    display: block;
+    height: 80rpx;
+    font-size: 30rpx;
+    text-align: left;
+    padding: 0 20rpx;
+    line-height: 80rpx;
+}
+.modules .module-left navigator{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 220rpx;
+}
+.modules .module-left navigator image{
+    display: block;
+    margin: 40rpx auto;
+    width: 120rpx;
+    height: 100rpx;
+}
+
+.modules .module-right{
+    display: inline-block;
+    float: left;
+    width: 49%;
+    height: 300rpx;
+}
+
+.modules .module-right .module-item{
+    display: block;
+    width: 100%;
+    height: 150rpx;
+    overflow: hidden;
+}
+.modules .module-right .module-item:nth-child(1){
+    border-bottom: 1px solid #cdcdcd;
+}
+.modules .module-right .module-item text{
+    display: inline-block;
+    float: left; 
+    font-size: 30rpx;
+    text-align: left;
+    padding: 0 20rpx;
+    height: 150rpx;
+    line-height: 80rpx;
+}
+.modules .module-right .module-item navigator{
+    display: inline-block;
+    float: left; 
+}
+.modules .module-right .module-item navigator image{
+    width: 120rpx;
+    height: 100rpx;
+    margin-top: 25rpx;
+    margin-left: 35rpx;
+}
+.address-info{
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    border-bottom: 1px solid #cdcdcd;
+}
+.address-info text{
+    margin-left: 20rpx;
+}
+
+.message-board{
+    display: block;
+    width: 100%;
+}
+
+.message-board .message-board-title{
+    padding: 0 20rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.message-board .message{
+    padding: 40rpx 20rpx;
+    overflow: hidden;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.message-board .message .message-icon{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 30%;
+}
+.message-board .message .message-icon image{
+    display: block;
+    width: 120rpx;
+    height: 100rpx;
+    margin: 10rpx auto;
+}
+
+.message-board .message .message-info{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 70%;
+}
+
+.message-board .message .message-info .message-content{
+    display: block;
+    padding: 0;
+    width: 100%;
+}
+.message-board .message .message-info .message-content text{
+  font-size: 32rpx;
+  line-height: 40rpx;  
+}
+.message-board .message .message-info .message-user{
+  display: block;
+    width: 100%;
+    height: 40rpx;
+    line-height: 50rpx;  
+}
+.message-board .message .message-info .message-user text{
+    margin-right: 20rpx;
+    font-size: 28rpx;
+}

@@ -1,0 +1,104 @@
+<view class="frame-container">
+  <view class="logo"></view>
+  <view class="modules">
+    <view class="module-row">
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7.png" />
+        <navigator url="../index-book/index-book" hover-class="none">
+          <text>预约挂号</text>
+          <span>提前预约先人一步</span> 
+        </navigator>
+      </view>
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E5%9C%A8%E7%BA%BF%E6%8C%82%E5%8F%B7.png"/>
+        <navigator url="../index-online/index-online" hover-class="none">
+          <text>在线挂号</text>
+          <span>直接挂号一步到位</span> 
+        </navigator>
+      </view>
+    </view>
+    <view class="module-row">
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E5%80%99%E8%AF%8A%E9%98%9F%E5%88%97.png"/>
+        <navigator url="../index-queue/index-queue" hover-class="none">
+          <text>候诊队列</text>
+          <span>看看您前面还有几位</span> 
+        </navigator>
+      </view>
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E5%B0%B1%E8%AF%8A%E7%BC%B4%E8%B4%B9.png"/>
+        <navigator url="../index-pay/index-pay" hover-class="none">
+          <text>就诊缴费</text>
+          <span>随时缴费方便快捷</span> 
+        </navigator>
+      </view>
+    </view>
+    <view class="module-row">
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E6%8A%A5%E5%91%8A%E6%9F%A5%E8%AF%A2.png"/>
+        <navigator url="../index-check/index-check" hover-class="none">
+          <text>取检查单</text>
+          <span>及时查看检查报告</span> 
+        </navigator>
+      </view>
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E5%8F%96%E6%A3%80%E9%AA%8C%E5%8D%95.png"/>
+        <navigator url="../index-valid/index-valid" hover-class="none">
+          <text>取检验单</text>
+          <span>及时查看检验报告</span> 
+        </navigator>
+      </view>
+    </view>
+    <view class="module-row">
+      <view class="module-item">
+        <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E5%B0%B1%E9%A4%90.png"/>
+        <navigator url="../index-restaurant/index-restaurant" hover-class="none">
+          <text>点餐服务</text>
+          <span>想吃什么点什么</span> 
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="comments">
+    <view class="comments-title">
+      <image src="http://7xs3gd.com1.z0.glb.clouddn.com/%E6%82%A3%E8%80%85%E8%AF%84%E4%BB%B7.png"/>
+      <text>患者评价</text>
+      <navigator url="#" hover-class="none">更多</navigator> 
+    </view>
+    <view class="comment">
+      <div class="user-info">
+        <text>王的天使</text>
+        <div class="stars">
+          <icon></icon>
+        </div>
+      </div>
+      <div class="comment-content">
+        <text>苦逼为了做核磁共振楼上楼下抱小孩跑了6回，如果医院内部组我协调就好了。</text>
+      </div>
+      <div class="info">
+        <span>检验科</span>
+        <time>2015-1-2 23:20</time>
+      </div>
+    </view>
+
+    <view class="comment">
+      <div class="user-info">
+        <text>王的天使</text>
+        <div class="stars">
+        <icon></icon>
+          <icon></icon>
+          <icon></icon>
+          <icon></icon>
+        </div>
+      </div>
+      <div class="comment-content">
+        <text>苦逼为了做核磁共振楼上楼下抱小孩跑了6回，如果医院内部组我协调就好了。</text>
+      </div>
+      <div class="info">
+        <span>检验科</span>
+        <time>2015-1-2 23:20</time>
+      </div>
+    </view>
+  </view>
+</view>
+<view class="fix-line"></view>

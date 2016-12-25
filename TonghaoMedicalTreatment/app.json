@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/me",
+    "pages/medical/medical",
+    "pages/index-book/index-book",
+    "pages/index-pay/index-pay",
+    "pages/index-online/index-online",
+    "pages/index-check/index-check",
+    "pages/index-queue/index-queue",
+    "pages/index-valid/index-valid",
+    "pages/index-restaurant/index-restaurant",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"#333"
+  },
+   "tabBar": {
+     "borderStyle": "white",
+     "color":"#b2b2b2",
+     "backgroundColor": "#fff",
+     "selectedColor": "#333",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/home.png",
+      "selectedIconPath": "images/home_focus.png"
+    }, {
+      "pagePath": "pages/medical/medical",
+      "text": "导医服务",
+      "iconPath":"images/medical.png",
+      "selectedIconPath": "images/medical_focus.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath":"images/me.png",
+      "selectedIconPath": "images/me_focus.png"
+    }]
+  }
+}
