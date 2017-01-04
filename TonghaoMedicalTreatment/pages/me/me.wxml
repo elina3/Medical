@@ -1,13 +1,32 @@
 
 <!--index.wxml-->
-<view class="container">
-  <view bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="frame-container">
+    <view bindtap="bindViewTap" class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="modules">
+      <view class="module-column">
+        <image src=""/>
+        <text>就诊卡</text>
+      </view>
+      <view class="module-column">
+        <image src=""/>
+        <text>缴费单</text>
+      </view>
+      <view class="module-column">
+        <image src=""/>
+        <text>满意度调查</text>
+      </view>
+    </view>
+
+    <view class="pannel-list">
+      <view class="pannel-item">
+        <image />
+        <text>我的预约</text>
+        <span class="arrow-right"> ></span>
+      </view>
+    </view>
 </view>
 
 <view class="fix-line"></view>

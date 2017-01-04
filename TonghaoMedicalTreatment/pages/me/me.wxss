@@ -1,20 +1,69 @@
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background: #333;
+  width: 100%;
+  height: 350rpx;
+  overflow: hidden;
 }
 
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  margin: 60rpx;
+  margin-bottom: 40rpx;
   border-radius: 50%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
-.usermotto {
-  margin-top: 200px;
+.modules{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #cdcdcd;
+}
+.modules .module-column{
+
+  display: inline-block;
+  float: left;
+  width: 33%;
+  text-align: center;
+
+  border-left: 1px solid #cdcdcd;
+  padding: 0 0 30rpx 0; 
+
+  font-size: 30rpx;
+  color: #333;
+}
+.modules .module-column:nth-child(1){
+  border-left: none;
+}
+
+.modules .module-column image{
+  display: block;
+  width: 160rpx;
+  height: 100rpx;
+
+  margin: 40rpx auto;
+}
+
+.pannel-list {
+  display: block;
+  overflow: hidden;
+}
+.pannel-list .pannel-item{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+.pannel-list .pannel-item image{
+  width: 80rpx;
+  height: 80rpx;
 }

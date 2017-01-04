@@ -1,5 +1,7 @@
 <view class="frame-container">
-  <view class="logo"></view>
+  <view class="logo">
+    <image src="http://7xs3gd.com1.z0.glb.clouddn.com/900-500%E5%8C%BB%E9%99%A2%E5%85%A8%E6%99%AF.png"/>
+  </view>
   <view class="modules">
     <view class="module-row">
       <view class="module-item">

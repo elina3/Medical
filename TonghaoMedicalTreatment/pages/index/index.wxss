@@ -6,8 +6,6 @@ view{
   height: 320rpx;
   width: 100%;
   overflow: hidden;
-  background: url('http://7xs3gd.com1.z0.glb.clouddn.com/900-500%E5%8C%BB%E9%99%A2%E5%85%A8%E6%99%AF.png')  -20rpx top no-repeat;
-  background-size: cover;
 }
 
 .logo image{
